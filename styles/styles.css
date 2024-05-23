@@ -5,6 +5,7 @@ body {
 h1 {
   color: #001524;
   text-align: center;
+  margin-top: 15px;
 }
 
 h2 {
@@ -63,7 +64,18 @@ li:hover {
   color: white;
 }
 
-/* Contact Form */
+/* Contact Page */
+
+.contact-header {
+  margin-top: 35px;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
 
 .contact-form {
   background-color: #001524e4;
@@ -71,14 +83,20 @@ li:hover {
   color: white;
   border-radius: 10px;
   padding: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.contact-paragraph {
+  text-align: center;
+  margin: 10px;
 }
 
 .form-btn {
-  background-color: #001524;
+  background-color: #e09f3e !important;
+  color: #f7ede2 !important;
 }
 .form-btn:hover {
-  background-color: #e09f3e;
+  background-color: #386631 !important;
 }
 
 /* Footer */
