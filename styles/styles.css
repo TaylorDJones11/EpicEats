@@ -41,6 +41,20 @@ li:hover {
   background-color: #001524;
 }
 
+/* Homepage Highlight */
+
+.highlight img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid #001524;
+}
+
+.col .highlight-paragraph {
+  margin-top: 40px;
+}
+
 /* Carousel */
 
 .carousel {
