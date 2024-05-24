@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
 body {
   background-color: #f7ede2;
 }
@@ -10,8 +16,8 @@ h1 {
 
 h2 {
   margin: 0 0 25px 0;
-  padding-top: 25px;
-  padding-left: 25px;
+  padding-top: 115px;
+  text-align: center;
 }
 
 ul {
@@ -22,7 +28,6 @@ ul {
   background-color: #e09f3e;
 }
 
-/* Use flex or grid here for navbar */
 nav ul {
   display: flex;
   justify-content: center;
@@ -48,11 +53,7 @@ li:hover {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
-  border: 2px solid #001524;
-}
-
-.col .highlight-paragraph {
-  margin-top: 40px;
+  border: 1px solid #001524;
 }
 
 /* Carousel */
@@ -77,6 +78,8 @@ li:hover {
 .btn {
   color: white;
 }
+
+/* Articles Section */
 
 /* Contact Page */
 
@@ -110,6 +113,7 @@ li:hover {
   color: #f7ede2 !important;
 }
 .form-btn:hover {
+  /* Change hover color */
   background-color: #386631 !important;
 }
 
