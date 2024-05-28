@@ -79,7 +79,20 @@ li:hover {
   color: white;
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
 /* Articles Section */
+
+.article {
+  margin-bottom: 15px;
+}
+
+.article-img {
+  width: 100%;
+  height: 200px;
+}
 
 /* Contact Page */
 
@@ -111,10 +124,6 @@ li:hover {
 .form-btn {
   background-color: #e09f3e !important;
   color: #f7ede2 !important;
-}
-.form-btn:hover {
-  /* Change hover color */
-  background-color: #386631 !important;
 }
 
 /* Footer */
