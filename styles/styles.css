@@ -16,8 +16,15 @@ h1 {
 
 h2 {
   margin: 0 0 25px 0;
-  padding-top: 115px;
   text-align: center;
+}
+
+.recipe-h2 {
+  padding-top: 115px;
+}
+
+.article-h2 {
+  padding-top: 90px;
 }
 
 ul {
@@ -83,6 +90,10 @@ li:hover {
   opacity: 0.8;
 }
 
+.btn .article {
+  background-color: #001524;
+}
+
 /* Articles Section */
 
 .article {
@@ -90,8 +101,32 @@ li:hover {
 }
 
 .article-img {
-  width: 100%;
-  height: 200px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.article-btn {
+  background-color: #264653;
+  border: none;
+  padding: 0.4rem 30px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Submit Form */
+
+.submit-form {
+  background-color: #001524;
+  width: 80%;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.submit-form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 /* Contact Page */
