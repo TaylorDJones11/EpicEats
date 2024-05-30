@@ -144,6 +144,27 @@ td {
   padding: 10px;
 }
 
+/* Animation */
+
+@keyframes example {
+  from {
+    background-color: #264653;
+  }
+  to {
+    background-color: #e09f3e;
+  }
+}
+
+/* The element to apply the animation to */
+.table-container {
+  width: 40vw;
+  height: auto;
+  background-color: #264653;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 4;
+}
+
 /* Submit Form */
 
 .submit-header {
@@ -225,6 +246,22 @@ td {
 .form-btn {
   background-color: #e09f3e !important;
   color: #f7ede2 !important;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #001524e4;
+  }
+  50% {
+    color: #e09f3e;
+  }
+  100% {
+    color: #001524e4;
+  }
+}
+
+.contact-animation {
+  animation: colorChange 4s infinite;
 }
 
 /* Footer */
