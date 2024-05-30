@@ -115,6 +115,10 @@ li:hover {
 
 /* Submit Form */
 
+.submit-header {
+  margin-top: 35px;
+}
+
 .submit-form {
   background-color: #001524;
   opacity: 0.9;
@@ -129,8 +133,14 @@ li:hover {
 .submit-form-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 120px;
   margin-top: 50px;
+}
+
+.submit-btn {
+  background-color: #e09f3e !important;
+  color: #f7ede2 !important;
+  margin-top: 10px;
 }
 
 .ingredients {
