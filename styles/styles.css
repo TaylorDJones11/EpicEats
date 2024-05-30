@@ -113,6 +113,37 @@ li:hover {
   color: white;
 }
 
+/* Table */
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container {
+  background-color: #264653;
+  width: 40vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+table {
+  color: #fff;
+  margin: 0 auto;
+  width: 50%;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
 /* Submit Form */
 
 .submit-header {
