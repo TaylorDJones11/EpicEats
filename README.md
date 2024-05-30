@@ -21,7 +21,7 @@ This project is a Recipe Website designed with HTML and CSS, featuring a consist
 - **Colors**: Features a complementary color scheme from Coolors.
 
 ## My Github Link 👩🏽‍💻
-- https://github.com/TaylorDJones11
+- [https://github.com/TaylorDJones11](https://github.com/TaylorDJones11/EpicEats)
 
 ## Getting Started 💻
 ### Prerequisites
