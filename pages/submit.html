@@ -24,11 +24,24 @@
       </ul>
     </nav>
     <h1>Submit Recipes</h1>
+    <p class="contact-paragraph">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae
+      eaque deleniti provident commodi animi ea consequatur nemo voluptatem
+      dignissimos tenetur blanditiis totam voluptate eius, incidunt, iure ab,
+      placeat dolorem!
+    </p>
+
+    <div class="gif-container">
+      <img src="/images/healthyeating.gif" alt="" />
+      <img src="/images/healthyeating.gif" alt="" />
+      <img src="/images/healthyeating.gif" alt="" />
+      <img src="/images/healthyeating.gif" alt="" />
+    </div>
 
     <div class="submit-form-container">
       <form class="submit-form" action="">
-        <label for="recipename">Recipe Name</label>
-        <input type="text" id="recipename" name="recipename" />
+        <label for="recipename">Recipe Name: </label>
+        <input type="text" id="recipename" name="recipename" /><br />
         <label for="category">Choose recipe type: </label>
         <select name="category" id="category">
           <option value="breakfast">Breakfast</option>
@@ -36,6 +49,17 @@
           <option value="dinner">Dinner</option>
           <option value="snack">Snack</option>
         </select>
+        <br />
+        <label class="ingredients" for="ingredients">Add Ingredients: </label
+        ><br />
+        <textarea
+          name="ingredients"
+          rows="5"
+          cols="50"
+          id="ingredients"
+          placeholder="Enter ingredients here"
+        ></textarea>
+        <button class="btn form-btn">Submit Recipe</button>
       </form>
     </div>
 

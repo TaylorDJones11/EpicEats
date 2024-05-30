@@ -117,16 +117,41 @@ li:hover {
 
 .submit-form {
   background-color: #001524;
-  width: 80%;
-  color: white;
+  opacity: 0.9;
+  width: 40%;
+
+  color: #ffffff;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .submit-form-container {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.ingredients {
+  margin-top: 20px;
+}
+
+#category {
+  margin-top: 10px;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.gif-container img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 /* Contact Page */
