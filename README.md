@@ -11,7 +11,7 @@ This project is a Recipe Website designed with HTML and CSS, featuring a consist
 
 ## Features ✨
 - **Grid System**: Consistent layout using Bootstrap Grid and Flexbox.
-- **HTML Tags**: Utilizes various HTML tags including `<header>`, `<footer>`, `<nav>`, `<section>`, `<form>`, `<table>`, `<img>`, `<video>`, `<a>`, `<div>`.
+- **HTML Tags**: Utilizes various HTML tags including `<header>`, `<footer>`, `<nav>`, `<section>`, `<form>`, `<table>`, `<img>`, `<gif>`, `<a>`, `<div>`.
 - **Table**: For Seasonal Fruits and Vegetables
 - **Forms**: Recipe submission form and a contact form.
 - **Dropdown Menu**: Categories of recipes.
