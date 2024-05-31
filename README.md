@@ -1,4 +1,4 @@
-# Epic Eats - Recipe Website 🧑🏽‍🍳
+# Epic Eats 🧑🏽‍🍳
 
 ## Project Overview
 This project is a Recipe Website designed with HTML and CSS, featuring a consistent grid layout using Bootstrap Grid and Flexbox. The website includes multiple pages, various forms, and different types of content to create an engaging and informative user experience.
